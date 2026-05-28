@@ -22,7 +22,8 @@ quick-sharun \
 	/usr/share/mlt*            \
 	/usr/lib/libCuteLogger.so* \
 	/usr/lib/frei0r-*          \
-	/usr/lib/mlt-*
+	/usr/lib/mlt-*             \
+	/usr/lib/ladspa
 
 # Additional changes can be done in between here
 
