@@ -25,7 +25,9 @@ quick-sharun \
 	/usr/lib/mlt-*             \
 	/usr/lib/ladspa
 
-# Additional changes can be done in between here
+echo 'FREI0R_PATH=${SHARUN_DIR}/lib/frei0r-1'               >> ./AppDir/.env
+echo 'MLT_PROFILES_PATH=${SHARUN_DIR}/share/mlt-7/profiles' >> ./AppDir/.env
+echo 'MLT_PRESETS_PATH=${SHARUN_DIR}/share/mlt-7/presets'   >> ./AppDir/.env
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
