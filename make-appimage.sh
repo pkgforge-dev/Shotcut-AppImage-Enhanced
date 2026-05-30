@@ -26,7 +26,8 @@ quick-sharun \
 	/usr/lib/mlt-*             \
 	/usr/lib/ladspa            \
 	/usr/lib/librtaudio.so*    \
-	/usr/lib/libsox_ng.so*
+	/usr/lib/libsox_ng.so*     \
+	/usr/lib/libQt*SvgWidgets.so*
 
 echo 'FREI0R_PATH=${SHARUN_DIR}/lib/frei0r-1'               >> ./AppDir/.env
 echo 'MLT_PROFILES_PATH=${SHARUN_DIR}/share/mlt-7/profiles' >> ./AppDir/.env
