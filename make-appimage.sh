@@ -24,7 +24,9 @@ quick-sharun \
 	/usr/lib/libCuteLogger.so* \
 	/usr/lib/frei0r-*          \
 	/usr/lib/mlt-*             \
-	/usr/lib/ladspa
+	/usr/lib/ladspa            \
+	/usr/lib/librtaudio.so*    \
+	/usr/lib/libsox_ng.so*
 
 echo 'FREI0R_PATH=${SHARUN_DIR}/lib/frei0r-1'               >> ./AppDir/.env
 echo 'MLT_PROFILES_PATH=${SHARUN_DIR}/share/mlt-7/profiles' >> ./AppDir/.env
