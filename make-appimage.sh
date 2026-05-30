@@ -30,8 +30,10 @@ quick-sharun \
 	/usr/lib/libQt*SvgWidgets.so*
 
 echo 'FREI0R_PATH=${SHARUN_DIR}/lib/frei0r-1'               >> ./AppDir/.env
+echo 'MLT_REPOSITORY=${SHARUN_DIR}/lib/mlt-7'               >> ./AppDir/.env
 echo 'MLT_PROFILES_PATH=${SHARUN_DIR}/share/mlt-7/profiles' >> ./AppDir/.env
 echo 'MLT_PRESETS_PATH=${SHARUN_DIR}/share/mlt-7/presets'   >> ./AppDir/.env
+echo 'LADSPA_PATH=${SHARUN_DIR}/lib/ladspa'                 >> ./AppDir/.env
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
