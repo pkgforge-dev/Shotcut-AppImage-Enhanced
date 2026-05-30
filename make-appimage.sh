@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/org.shotcut.Shotcut.png
 export DESKTOP=/usr/share/applications/org.shotcut.Shotcut.desktop
 export DEPLOY_PIPEWIRE=1
+export DEPLOY_SDL=1
 
 # Deploy dependencies
 quick-sharun \
